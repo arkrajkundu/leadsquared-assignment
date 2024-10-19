@@ -1,8 +1,7 @@
-# React + Vite
+Cat Image Fetcher
+This is a React + Vite project that displays cat images fetched from the The Cat API. It demonstrates various loading mechanisms and user interactions for fetching and displaying data.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+Easy Mode: Fetch cat images on button click and display them in a responsive grid layout.
+Medium Mode: Implement pagination with "Previous" and "Next" buttons to navigate through the fetched images.
+Hard Mode: Load the initial set of 10 images and allow users to load more images by clicking a "Load More" button.
